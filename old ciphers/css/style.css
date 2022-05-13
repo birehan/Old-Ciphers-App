@@ -1,0 +1,76 @@
+#container{
+    background: gray;
+}
+footer {
+    width: 100%;
+    background-color: #555;
+    padding: 10px;
+  }
+footer p{
+    font-size:1.3em;
+    color: white;
+    font-weight: 600;
+
+}
+.title{
+    font-size: 35px;
+    background-color: silver;
+    text-align: center;
+}
+
+.purple-border textarea {
+    border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.green-border-focus .form-control:focus {
+    border: 1px solid #8bc34a;
+    box-shadow: 0 0 0 0.2rem rgba(139, 195, 74, .25);
+}
+.input-label{
+    font-size: 20px;
+}
+
+.form-group textarea{
+    font-size: 20px;
+    max-width: 1000px;
+}
+.key-form label{
+    font-size:20px;
+}
+.key-form input{
+    margin-left: 10px;
+    max-width: 150px;
+    font-size: 1.5em;
+}
+.submit-button{
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.submit-button .btn-info{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.submit-button .btn-success{
+    font-size: 20px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+    font-weight: bold;
+}
+.sidebar-container{
+    height: 800px;
+    overflow-y: auto;
+}
+.cont-space{
+    margin-top: 40px;
+}
+.main-cont{
+    margin-left:20px;
+}
